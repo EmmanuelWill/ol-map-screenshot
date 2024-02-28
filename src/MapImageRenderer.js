@@ -34,7 +34,6 @@ class MapImageRenderer {
         //Offset from the left
         const x_offset = 10;
         //offset from the bottom
-        console.log('here');
         const y_offset = 30;
         const fontsize1 = 20;
         const font = fontsize1 + 'px Arial';
@@ -54,7 +53,7 @@ class MapImageRenderer {
 
         //Scale Dimensions
         var xzero = scalewidth + x_offset;
-        var yzero = canvas.height - y_offset;
+        var yzero = canvas.height;
         var xfirst = x_offset + scalewidth * 1 / 4;
         var xsecond = xfirst + scalewidth * 1 / 4;
         var xthird = xsecond + scalewidth * 1 / 4;

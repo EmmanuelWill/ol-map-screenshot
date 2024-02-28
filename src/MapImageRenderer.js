@@ -34,6 +34,7 @@ class MapImageRenderer {
         //Offset from the left
         const x_offset = 10;
         //offset from the bottom
+        console.log('here');
         const y_offset = 30;
         const fontsize1 = 20;
         const font = fontsize1 + 'px Arial';

@@ -9,7 +9,7 @@ class MapImageRenderer {
         const map = param.map;
         const mapCanvas = document.createElement('canvas');
         mapCanvas.width = param.widthPixel;
-        mapCanvas.height = param.heightPixel;
+        mapCanvas.height = param.h;
         const mapContext = mapCanvas.getContext('2d');
         Array.prototype.forEach.call(document.querySelectorAll('.ol-layer canvas'), (canvas) => {
             if (canvas.width > 0) {

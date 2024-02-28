@@ -2,7 +2,7 @@ import mapImageRenderer from "./MapImageRenderer";
 
 // 1 dpi = 1 Pixeles por Inch(25.4 mm)
 const MM_x_DPI = 25.4;
-const DEFAULT_RESOLUTION = 150; //dpi
+const DEFAULT_RESOLUTION = 50; //dpi
 
 class MapExporter {
     async getScreenshot(map, param) {

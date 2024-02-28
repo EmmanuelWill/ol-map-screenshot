@@ -53,7 +53,7 @@ class MapImageRenderer {
 
         //Scale Dimensions
         var xzero = scalewidth + x_offset;
-        var yzero = canvas.height;
+        var yzero = canvas.height - y_offset;
         var xfirst = x_offset + scalewidth * 1 / 4;
         var xsecond = xfirst + scalewidth * 1 / 4;
         var xthird = xsecond + scalewidth * 1 / 4;
